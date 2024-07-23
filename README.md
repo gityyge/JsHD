@@ -1,10 +1,14 @@
 <p align="center">
   <img width="260px" src="https://yyyp.oss-cn-beijing.aliyuncs.com/%E4%BB%A3%E7%A0%81%E7%9B%B4%E9%93%BE/JsHD%E8%B0%83%E8%AF%95%E5%99%A8/%E5%9B%BE%E6%A0%87/icon.png">
 </p>
-
+<div align="center">
+<h3>
+  JsHD调试器 - 体验手机端的F12
+</h3>
+</div>
 <p align="center">
   <a href="https://www.npmjs.org/package/element-plus">
-    <img src="https://img.shields.io/npm/v/element-plus.svg" />
+    <img src="https://img.shields.io/badge/Lua-5.3-%231a75cf" />
   </a>
   <a href="https://github.com/element-plus/element-plus">
     <img src="https://img.shields.io/badge/node-%20%3E%3D%2018-47c219" />
@@ -18,7 +22,7 @@
   <br>
 </p>
 
-<p align="center">JsHD调试器 - 体验手机端的F12</p>
+
 
 - 💪 Vue 3 Composition API
 - 🔥 Written in TypeScript
