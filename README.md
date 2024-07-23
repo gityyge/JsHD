@@ -2,9 +2,9 @@
   <img width="260px" src="https://yyyp.oss-cn-beijing.aliyuncs.com/%E4%BB%A3%E7%A0%81%E7%9B%B4%E9%93%BE/JsHD%E8%B0%83%E8%AF%95%E5%99%A8/%E5%9B%BE%E6%A0%87/icon.png">
 </p>
 <div align="center">
-<h3>
+<h2>
   JsHD调试器 - 体验手机端的F12
-</h3>
+</h2>
 </div>
 <p align="center">
   <a href="https://www.npmjs.org/package/element-plus">
