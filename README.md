@@ -41,15 +41,18 @@ JsHD内置了Js常用方法、属性、事件手册，让小白能够快速上�
 总之JsHD调试器很强大，修改元素分分钟解决
 ## 软件截图
 <p align="center">
-<img width="250px" src="https://yyyp.oss-cn-beijing.aliyuncs.com/OpenSource/JsHD/2_1_9/img/01.jpg"/>
-<img width="250px" src="https://yyyp.oss-cn-beijing.aliyuncs.com/OpenSource/JsHD/2_1_9/img/02.jpg"/>
-<img width="250px" src="https://yyyp.oss-cn-beijing.aliyuncs.com/OpenSource/JsHD/2_1_9/img/03.jpg"/>
-  </p>
-<img width="250px" src="https://yyyp.oss-cn-beijing.aliyuncs.com/OpenSource/JsHD/2_1_9/img/04.jpg"/>
-<img width="250px" src="https://yyyp.oss-cn-beijing.aliyuncs.com/OpenSource/JsHD/2_1_9/img/05.jpg"/>
-<img width="250px" src="https://yyyp.oss-cn-beijing.aliyuncs.com/OpenSource/JsHD/2_1_9/img/06.jpg"/>
-<img width="250px" src="https://yyyp.oss-cn-beijing.aliyuncs.com/OpenSource/JsHD/2_1_9/img/07.jpg"/>
-<img width="250px" src="https://yyyp.oss-cn-beijing.aliyuncs.com/OpenSource/JsHD/2_1_9/img/08.jpg"/>
+  <img width="250px" src="https://yyyp.oss-cn-beijing.aliyuncs.com/OpenSource/JsHD/2_1_9/img/01.jpg"/>
+  <img width="250px" src="https://yyyp.oss-cn-beijing.aliyuncs.com/OpenSource/JsHD/2_1_9/img/02.jpg"/>
+  <img width="250px" src="https://yyyp.oss-cn-beijing.aliyuncs.com/OpenSource/JsHD/2_1_9/img/03.jpg"/>
+  <img width="250px" src="https://yyyp.oss-cn-beijing.aliyuncs.com/OpenSource/JsHD/2_1_9/img/04.jpg"/>
+</p>
+<p align="center">
+  <img width="250px" src="https://yyyp.oss-cn-beijing.aliyuncs.com/OpenSource/JsHD/2_1_9/img/05.jpg"/>
+  <img width="250px" src="https://yyyp.oss-cn-beijing.aliyuncs.com/OpenSource/JsHD/2_1_9/img/06.jpg"/>
+  <img width="250px" src="https://yyyp.oss-cn-beijing.aliyuncs.com/OpenSource/JsHD/2_1_9/img/07.jpg"/>
+  <img width="250px" src="https://yyyp.oss-cn-beijing.aliyuncs.com/OpenSource/JsHD/2_1_9/img/08.jpg"/>
+</p>
+
 <img width="250px" src="https://yyyp.oss-cn-beijing.aliyuncs.com/OpenSource/JsHD/2_1_9/img/09.jpg"/>
 
 ## 💎 作者独白
