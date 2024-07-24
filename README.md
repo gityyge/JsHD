@@ -76,128 +76,28 @@ JsHD调试器 希望将网页数据分析 然后动态回调抓取列表，在ap
  - debug_action_track_os.lua - 动作跟踪-可视化调试页
  
  ## 🌈如何使用
+page目录下文件夹是每个子页面 注意查看每个文件首行注释
+使用的话只需要用FusionApp打开JsHD调试器OS_2.1.9.fas 模版文件 进行编辑即可
+至于 page目录下的文件都是从模版文件抽离出来的 文件中带有前缀的都是远程文件，自行编辑
 
-### Migration Tool :hammer_and_wrench:
+您可以下载fas模版文件并修改内容，注意遵循开源协议，远程文件您需要下载到本地修改代码中的远程地址
+#### 注意事项：在测试时需要整体打包
 
-We have made a migration tool for you to migrate your project from [Element UI](https://element.eleme.io) to Element Plus.
+ ## 🚀交互原理 & 加密原理
+本项目主要是通过webview与js之间进行动态交互,在webview提供了许多监听事件,如网页加载完毕后执行，网页加载前去执行等，在交互前我们需要对DOM环境进行改造也就是初始化(具体见源码)，譬如为元素计算特有属性，统计数据，去除CSP等，将远程资源本地化等
+当dmo改造完毕后用户才可以操作，如果您想加密软件可以使用动态注入某变量到dom环境实现加密效果，后期操作需要依赖此环境
+Js与Lua进行交互可用evaluateJavascript方法 或者 处理webview的监听(对话框、资源加载、控制台等)，具体见源码
 
-You can find the [gogo code migration tool](https://github.com/thx/gogocode/tree/main/packages/gogocode-plugin-element) here.
 
-We have tested this on [Vue Element Admin](https://github.com/PanJiaChen/vue-element-admin). You can find the transpiled code [here](https://github.com/gogocodeio/vue-element-admin).
+## 🦜技术交流
 
-### Playground
+- JsHD官方QQ群：971820505
+- 壹影QQ：203455278
 
-You can also try Element Plus out with the components built-in playground.
+## 🧬其他开源项目
 
-#### Try it with our built-in playground
+[Gitee主页](https://gitee.com/gityyge)
 
-[Playground](https://element-plus.run/)
+## 合作 & 招募
 
-#### Try it with code sandbox
-
-[![Edit element-plus](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/element-plus-demo-dxtcr)
-
-<p align="center">
-  <b>Special thanks to the generous sponsorship by:</b>
-</p>
-<br/>
-<p align="center">
-  <b>Platinum Sponsors</b>
-</p>
-<table align="center" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td align="center" valign="middle">
-        <a href="https://melecode.com/" target="_blank">
-          <img width="150px" src="https://github.com/element-plus/element-plus/assets/82012629/9ca4269c-7545-4463-9bdc-8e5a1fbd0b08">
-        </a>
-      </td>
-      <td align="center" valign="middle">
-        <a href="https://www.vform666.com/" target="_blank">
-          <img width="150px" src="https://user-images.githubusercontent.com/17680888/156870588-b25a42d5-888b-4943-8b1b-5239dfd8f4d2.png">
-        </a>
-      </td>
-      <td align="center" valign="middle">
-        <a href="https://www.jnpfsoft.com/index.html?from=elementUI" target="_blank">
-          <img width="150px" src="https://github.com/element-plus/element-plus/assets/17680888/6a044d82-c393-48ab-90b8-de0d3aad1624">
-        </a>
-      </td>
-      <td align="center" valign="middle">
-        <a href="http://github.crmeb.net/u/Element?from=element-plus" target="_blank">
-          <img width="150px" src="https://github.com/element-plus/element-plus/assets/17680888/7abd3c5a-04fb-4eae-9540-0d21c5ed71ed">
-        </a>
-      </td>
-    </tr>
-    </tbody>
-</table>
-<p align="center">
-  <b>Gold Sponsors</b>
-</p>
-<table align="center" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td align="center" valign="middle">
-        <a href="https://doc.buildadmin.com/?from=element-plus" target="_blank">
-          <img width="130px" src="https://user-images.githubusercontent.com/17680888/173179536-30e35fd1-cd5a-482a-bc41-9d5f0aa66fd4.png">
-        </a>
-      </td>
-      <td align="center" valign="middle">
-        <a href="http://www.i-renderer.love/home/index" target="_blank">
-          <img width="130px" src="https://github.com/element-plus/element-plus/assets/82012629/0004917d-71ad-48f9-b3ce-9299f0ff78c6">
-        </a>
-      </td>
-      <td align="center" valign="middle">
-        <a href="https://bit.dev/?from=element-ui" target="_blank">
-          <img width="130px" src="https://user-images.githubusercontent.com/10095631/41342907-e44e7196-6f2f-11e8-92f2-47702dc8f059.png">
-        </a>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-## Translations
-
-Element Plus is translated to multiple languages, you can click the badge to help up update the translation or apply to become
-a proofreader [![Crowdin](https://badges.crowdin.net/element-plus/localized.svg)](https://crowdin.com/project/element-plus)
-
-For now we are only showing English and Chinese for resource reasons, but we are looking forward to translate it into more languages, please go to the link
-above and leave a message if you want to help translating Element Plus into your desired language.
-
-### How to help translating
-
-See how to help translating in [Translating Element Plus](https://element-plus.org/en-US/guide/translation.html).
-
-## Stay tuned :eyes:
-
-Join our [Discord](https://discord.com/invite/gXK9XNzW3X) to start communicating with everybody.
-
-## This thing is broken, I should help improve it!
-
-Awesommmmmmee. Everything you need is down below. You can also refer to
-[CONTRIBUTING](https://github.com/element-plus/element-plus/blob/dev/CONTRIBUTING.md) and
-[Code of Conduct](https://github.com/element-plus/element-plus/blob/dev/CODE_OF_CONDUCT.md)
-where you'll find the same information listed below.
-
-## I would like to become a part of the development team!
-
-Welcome :star_struck:! We are looking for talented developers to join us and making Element Plus better! If you care to join the development team, please
-reach out to us, you are more than welcomed to join us! :heart:
-
-We are now lacking of experts of `Testing`, `GitHub Actions`, `PM`, if you do feel like you can and willing to help us, please do reach out to us. :pray:
-
-## Contributors
-
-This project exists thanks to all the people who contribute.
-
-And thank you to all our backers! 🙏
-
-<a href="https://github.com/element-plus/element-plus/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=element-plus/element-plus" />
-</a>
-
-## License
-
-Element Plus is open source software licensed as
-[MIT](https://github.com/element-plus/element-plus/blob/master/LICENSE).
+如果您想开发类似的创新产品，或者与我的项目愿景情投意合，欢迎联系我(203455278)
